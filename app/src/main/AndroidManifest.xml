@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.electrocalculatordashboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EleCtroCalculatordashboard">
+        <activity
+            android:name=".MainActivitynext7486"
+            android:label="IC7486 truth table"
+            android:parentActivityName=".MainActivityIC7486" />
+        <activity
+            android:name=".MainActivitynext7432"
+            android:label="IC7432 truth table"
+            android:parentActivityName=".MainActivityIC7432" />
+        <activity
+            android:name=".MainActivitynext7408"
+            android:label="IC7408 truth table"
+            android:parentActivityName=".MainActivityIC7408" />
+        <activity
+            android:name=".MainActivitynext7404"
+            android:label="IC7404 truth table"
+            android:parentActivityName=".MainActivityIC7404" />
+        <activity
+            android:name=".MainActivitynext7402"
+            android:label="IC7402 truth table"
+            android:parentActivityName=".MainActivity7402" />
+        <activity
+            android:name=".MainActivity7402"
+            android:label="IC7402"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivitynext7400"
+            android:label="IC7400 truth table"
+            android:parentActivityName=".MainActivity7400" />
+        <activity
+            android:name=".MainActivityIC7486"
+            android:label="IC 7486"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivityIC7432"
+            android:label="IC 7432"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivityIC7408"
+            android:label="IC 7408"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivityIC7404"
+            android:label="IC 7404"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivity7400"
+            android:label="IC 7400"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivity4"
+            android:label="All about IC"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity3"
+            android:label="Capacitance Calculator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Resistance Calculator"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
